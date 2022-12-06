@@ -1,0 +1,41 @@
+.logo-icon {
+    width: 100px;
+    margin: 0 5px;
+}
+.main-navbar {
+    background-color: white;
+}
+        
+span {
+    font-size: 35px;
+    color: rgb(8, 54, 70);
+    font-weight: bold;
+}
+.icon-link {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+
+}
+.icon-link:hover {
+    border-color: rgb(8, 54, 70);
+    color: rgb(212, 203, 203);
+}
+
+@media screen and (max-width:800px) {
+    span {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 414px) {
+    span {
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    span {
+        font-size: 10px;
+    }
+
+    
+}

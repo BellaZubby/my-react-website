@@ -1,0 +1,134 @@
+.about-header {
+    font-weight:bold;
+    text-align: center;
+    color: rgb(8, 54, 70);
+    padding-top: 6rem;
+}
+.about-paragraph {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+@media screen and (max-width: 950px) {
+    .image {
+        width: 750px;
+        margin-bottom: 2rem;
+    }
+    .about-paragraph {
+        line-height: 1.7rem;
+        font-size: 20px;
+
+    }
+    .about-main {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .image {
+        width: 850px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 820px) {
+    .image {
+        width: 750px;
+        margin-bottom: 2rem;
+    }
+    .about-paragraph {
+        line-height: 1.5rem;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .image {
+        width: 350px;
+        margin-bottom: 2rem;
+    }
+    .about-paragraph {
+        line-height: 1.5rem;
+
+    }
+    .about-main {
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 790px) {
+    .image {
+        width: 700px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .image {
+        width: 473px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 414px) {
+    .image {
+        width: 350px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 412px) {
+    .image {
+        width: 346px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .image {
+        width: 313px;
+        margin-bottom: 2rem;
+    }
+    .about-paragraph {
+        line-height: 1.5rem;
+
+    }
+    .about-main {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .image {
+        width: 326px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .image {
+        width: 315px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 360px) {
+    .image {
+        width: 300px;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .image {
+        width: 219px;
+        margin-bottom: 2rem;
+    }
+    .about-paragraph {
+        line-height: 1.2rem;
+        font-size: 12px;
+
+    }
+    .about-main {
+        padding: 0 2rem;
+    }
+    .about-header {
+        font-size: 20px 
+    }
+}

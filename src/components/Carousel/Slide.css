@@ -1,0 +1,29 @@
+.img1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 4rem;
+}
+@media screen and (max-width: 540px) {
+    .photo {
+         height: 350px;
+     }
+ }
+@media screen and (max-width: 414px) {
+    .photo {
+         height: 350px;
+     }
+ }
+@media screen and (max-width: 412px) {
+   .photo {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .img1 {
+        font-size: 1rem;
+    }
+   .photo {
+        height: 250px;
+    }
+}

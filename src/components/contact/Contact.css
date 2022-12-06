@@ -1,0 +1,53 @@
+#contact {
+    background-color: rgb(8, 54, 70);
+    width: 100%;
+    padding-bottom: 2rem;
+}
+#contact h1 {
+    text-align:center;
+    padding-top: 6rem;
+    color: honeydew;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+input {
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+textarea {
+    outline: none;
+}
+.button {
+    width: 70px;
+
+}
+.button:hover {
+    background-color: rgb(200,200,200);
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem ;
+}
+.con-icons {
+    font-size: 25px;
+    margin: 10px;
+    color: lavender;
+}
+@media screen and (max-width:280px) {
+    input {
+        width: 200px;
+    }
+}
