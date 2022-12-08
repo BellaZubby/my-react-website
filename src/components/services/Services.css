@@ -28,11 +28,11 @@
     height: 600px;
 }
 @media screen and (max-width: 280px) {
-    .images {
+     .images {
         height: 180px;
         
-    }
-    .title {
+     } 
+     .title {
         font-size: 25px;
     }
     .services h1 {
