@@ -13,8 +13,10 @@ function Contact() {
     emailjs.sendForm('service_z8snfh5', 'template_96wojab', form.current, 'mWXHezphf389lJVN-')
       .then((result) => {
           console.log(result.text);
+          alert('Message Sent')
       }, (error) => {
           console.log(error.text);
+          alert('Message not Sent')
       });
       e.target.reset();
   };

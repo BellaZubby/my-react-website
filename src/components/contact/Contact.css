@@ -46,6 +46,7 @@ textarea {
     margin: 10px;
     color: lavender;
 }
+
 @media screen and (max-width:280px) {
     input {
         width: 200px;
