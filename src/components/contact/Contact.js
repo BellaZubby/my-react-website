@@ -4,7 +4,7 @@ import './Contact.css';
 import {FaTwitter, FaInstagram, FaFacebook} from 'react-icons/fa';
 
 function Contact() {
-    const form = useRef();
+  const form = useRef();
     
 
   const sendEmail = (e) => {

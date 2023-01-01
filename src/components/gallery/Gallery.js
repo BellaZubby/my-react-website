@@ -21,6 +21,9 @@ import img15 from '../images/photo15.jpg';
 import img16 from '../images/photo16.jpg';
 import img18 from '../images/photo18.jpeg';
 import img19 from '../images/photo19.jpeg';
+import img20 from '../images/photo20.jpeg';
+import img21 from '../images/photo21.jpeg';
+import img22 from '../images/photo22.jpeg';
 
 
 
@@ -117,6 +120,21 @@ function Gallery() {
           <Col sm={12} lg={4}>
             <Detail
             img={img18}/>
+          </Col>
+        </Row>
+        {/* seventh row */}
+        <Row className='mb-3 px-3'>
+          <Col sm={12} lg={4} className='mb-3'>
+            <Detail
+            img={img20}/>
+          </Col>
+          <Col sm={12} lg={4} className='mb-3'>
+            <Detail
+            img={img21}/>
+          </Col>
+          <Col sm={12} lg={4}>
+            <Detail
+            img={img22}/>
           </Col>
         </Row>
     </div>
